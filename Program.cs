@@ -14,7 +14,7 @@ namespace SerbinaANDStahanova
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = (8 * Math.Sin(2 * x)) - Math.Cos(2 * x);
-            Console.WriteLine($"Значение F = {F}.");
+            Console.WriteLine($"Ответ = {F}.");
             Console.ReadKey();
         }
     }
